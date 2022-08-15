@@ -1,0 +1,29 @@
+{
+  "name": "bizcodding_lession_01",
+  "version": "1.0.0",
+  "description": "실무코딩 ES6/함수형 프로그램 교육",
+  "license": "MIT",
+  "scripts": {
+    "develop": "webpack --config webpack.config.js --mode=development",
+    "build": "webpack --config webpack.config.js --mode=production",
+    "once": "webpack --config webpack.config.js --mode=production && node ./dist/bundle.js",
+    "term": "nodemon --watch src/ --exec npx babel-node src/index.js localhost 5500",
+    "web": "webpack-dev-server --config webpack.config.js --mode=development"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "ramda": "^0.28.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.18.10",
+    "babel-loader": "^8.2.5",
+    "nodemon": "^2.0.19",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}
