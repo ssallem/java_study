@@ -1,8 +1,12 @@
 # course_01
 es6~ 및 함수형 프로그래밍 교육용 프로젝트
 
+* babel과 webpack 설정
+* reference에 setting.json과 sample 데이터 있음
+
+
 ### vscode settings.json
-'''
+```
 {
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.codeActionsOnSave": {
@@ -40,4 +44,4 @@ es6~ 및 함수형 프로그래밍 교육용 프로젝트
     "window.zoomLevel": 0
 }
 
-'''
+```
